@@ -1,0 +1,24 @@
+Files to upload to GitHub (medicare-spending-analyzer repo).
+Exclude: data/raw_cms_first5000.json (raw API file with provider
+names/NPIs, local only), __pycache__/, .venv.
+
+README.md
+DATA_SOURCES.md
+requirements.txt
+tableau_notes.md
+src/download_cms.py
+src/build_sample.py
+src/analyze.py
+sql/peer_benchmark.sql
+sql/state_specialty_summary.sql
+data/sample_providers.csv
+dashboard/app.py
+outputs/metrics.json
+outputs/outliers.csv
+outputs/provider_benchmark.csv
+outputs/specialty_summary.csv
+outputs/state_summary.csv
+outputs/charts/median_by_specialty.png
+outputs/charts/payment_per_bene_distribution.png
+outputs/charts/outlier_scatter.png
+outputs/charts/median_by_state.png
